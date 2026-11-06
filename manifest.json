@@ -1,0 +1,37 @@
+{
+  "manifest_version": "1.0",
+  "org": "mrabarnett",
+  "repo": "mrab-regex",
+  "versions": [
+    {
+      "commit": "0e8cb0596ba6572c66e5d153a1d7c901b381e15e",
+      "parsed_at": "2026-11-06T03:51:11.218107+00:00",
+      "tag": "2026.9.29",
+      "filetree": "filetree/0e8cb0596ba6572c66e5d153a1d7c901b381e15e.nq.gz",
+      "blobs": [
+        "blob/60678919c2a774a2a8a6d0701bfd79b17e4d4ac8.nq.gz",
+        "blob/f88d3cdae300710852dc3266a55a267d0f2a5731.nq.gz",
+        "blob/b5f0e8774ed9bb9d9ae1c844c9c6843f346cc50e.nq.gz",
+        "blob/39c493d6c8e235f37fb03bc131ff78053f63ba06.nq.gz",
+        "blob/64957538d24ba3f63fb6a76d54257b0c7704411c.nq.gz",
+        "blob/c6cf85ddb4cf88790742e781ff0970426d991330.nq.gz",
+        "blob/585b75fd0b0cefb6de7e258358fff624a7f1aad7.nq.gz",
+        "blob/c20e2381151c367551ebc71c896e23386ea41536.nq.gz",
+        "blob/90f9212076c50abf356cc92d7111668ec7fb4d5c.nq.gz",
+        "blob/e78a0e633cdd358c5258a37efc36ba38c0270da5.nq.gz",
+        "blob/b391472b5bb4ea94924376c448a3674b8c6ff8ad.nq.gz",
+        "blob/99c19cf844141395a87c34325da3a537f1e95815.nq.gz",
+        "blob/eaaa84af936ba46ed13833f3a2c71cca8a0cc9e5.nq.gz",
+        "blob/1ee79b212747b37afa85c9962af4ea2c6836b2e0.nq.gz",
+        "blob/98b4b199918a2e97b9676e225f7a5cc718d17492.nq.gz",
+        "blob/5ce0ad5ba85933c3b4a42ee019cf306c08042ba7.nq.gz",
+        "blob/2b0f9bd989fd8062222000c314c62f15fd3d9afb.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}
