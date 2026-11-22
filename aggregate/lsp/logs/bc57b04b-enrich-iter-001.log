@@ -1,0 +1,24 @@
+[2026-11-22T02:27:43Z] === ENRICH ITERATION 1 START | repo=mrabarnett/mrab-regex sha=bc57b04b ===
+[2026-11-22T02:27:43Z] [iter=1] PHASE START: enrich repo=mrabarnett/mrab-regex sha=bc57b04b runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/bc57b04b-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/bc57b04b00de68590345ac2eb621b9a8dd222d7d.nq.gz
+[2026-11-22T02:27:43Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-22T02:28:25Z] [iter=1] AST store loaded triples=3270730 load_secs=41 mem_mb=916 MB
+[2026-11-22T02:28:25Z] [iter=1] Step 2: Finding LSP targets mem_mb=916 MB
+[2026-11-22T02:28:27Z] [iter=1] LSP targets found call_sites=10446 imports=44 extends=58 implements=0 secs=2
+[2026-11-22T02:28:28Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=916 MB
+[2026-11-22T02:28:35Z] [iter=1] Position index built positions=113071 nodes_with_types=140485 secs=7 mem_mb=916 MB
+[2026-11-22T02:28:35Z] [iter=1] Step 3: Starting LSP resolution mem_mb=916 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T02:28:35Z] [iter=1] Resolving target type target_type=call_site count=10446
+[2026-11-22T02:28:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.9 files_done=0 resolved=0 errors=0 current=regex/tests/test_regex.py
+[2026-11-22T02:48:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.0 files_done=1 resolved=4166 errors=0 current=regex/_regex_core.py
+[2026-11-22T03:01:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=34.2 files_done=2 resolved=5391 errors=0 current=tools/build_regex_unicode.py
+[2026-11-22T03:05:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=37.4 files_done=3 resolved=6190 errors=0 current=regex/_main.py
+[2026-11-22T03:05:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=38.2 files_done=4 resolved=6304 errors=0 current=setup.py
+[2026-11-22T03:09:17Z] [iter=1] Target type resolved target_type=call_site resolved=6580 errors=0 secs=2442 mem_mb=916 MB
+[2026-11-22T03:09:17Z] [iter=1] Resolving target type target_type=import_statement count=44
+[2026-11-22T03:09:18Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=41.6 files_done=0 resolved=0 errors=0 current=tools/build_regex_unicode.py
+[2026-11-22T03:09:22Z] [iter=1] Target type resolved target_type=import_statement resolved=40 errors=0 secs=5 mem_mb=916 MB
+[2026-11-22T03:09:22Z] [iter=1] Resolving target type target_type=extends_clause count=58
+[2026-11-22T03:09:24Z] [iter=1] Target type resolved target_type=extends_clause resolved=58 errors=0 secs=2 mem_mb=916 MB
+[2026-11-22T03:18:23Z] [iter=1] Step 5: Writing final enrichment file triples=86838
+[2026-11-22T03:18:24Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/bc57b04b00de68590345ac2eb621b9a8dd222d7d.nq.gz size_kb=1464
+[2026-11-22T03:18:24Z] [iter=1] PHASE END: enrich elapsed_s=3041 elapsed_min=50.7 total_triples=86838
